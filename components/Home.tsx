@@ -3,7 +3,7 @@ import BlogCard from './BlogCard'
 
 const Home = () => {
   return (
-    <div className='h-full flex flex-col px-20'>
+    <div className='h-full flex flex-col md:px-20 px-10'>
        <h1 className='pt-12 max-w-lg'>Welcome to my blog I&apos;m Sumona and here I document my latest explorations.</h1>
        <div className='pt-16'>
         <div className='flex items-center justify-between'>

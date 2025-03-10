@@ -2,7 +2,7 @@ export default function BlogCard() {
     return (
       <div className="p-6 rounded-lg w-[28rem] flex-shrink-0">
         <div className="relative overflow-hidden rounded-lg">
-          <img src="/blog.jpg" alt="Scroll Animation" className="w-[30vw] h-[28vh] object-cover" />
+          <img src="/blog.jpg" alt="Scroll Animation" className="md:w-[30vw] w-full h-[28vh] object-cover" />
         </div>
         <div className="mt-4">
           <p className="text-sm text-muted-foreground">June 3, 2024</p>
